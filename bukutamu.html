@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            nav{
+                background-color:dimgray;
+                }
+            ul{
+                display: flex;
+                }
+            a:link, a:visited{
+                list-style: none;
+                color: white;
+                padding: 20px 0;
+                font-size: 30px;
+                margin-right: 80px;
+                text-decoration: none;
+                }
+            tr, td, input{
+                font-size: 30px;
+                margin-left: 20px;
+                }
+        </style>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="tentang.html">Tentang</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="bukutamu.html">Buku Tamu</a>
+            </ul>
+        </nav>
+    </head>
+        <body>
+            <center>
+            <br><br><br><br><br><br><br><br>
+            <h1>Harap Tinggalkan Jejak</h1>
+            <form action="contact.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Nama</td><td>:
+                        <input type="text" name="nama"/></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td><td>:
+                        <input type="text" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td></td><td><p align="right"><input type="submit" name="submit" value="Simpan"/></p>
+                        <p align="right"><input type="reset" name="reset" value="Reset"/></p></td>
+                    </tr>
+                </table>                
+            </form>
+            </center>
+        </body>
+</html>
